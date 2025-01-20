@@ -14,5 +14,6 @@ public class NewTest {
 	  driver.get("https://www.google.com/");
 	  WebElement s=driver.findElement(By.id("input"));
 	  s.sendKeys("Learn selenium");
+	  driver.close();
   }
 }
